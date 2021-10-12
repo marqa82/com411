@@ -15,8 +15,12 @@ print(f"Your height is {user_height}")
 
 # Ask user to enter their weight
 print("How much do you weight (in kilograms)?")
-user_weight = int(input())
+user_weight = float(input())
 print(f"Your weight is {user_weight}")
 
 # Calculate the user's BMI
+bmi = user_weight / (user_height ** 2)
+
+# Display result
+print(f"{name} your bmi is {bmi}")
 
